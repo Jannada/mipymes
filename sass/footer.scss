@@ -1,0 +1,11 @@
+footer{
+    background-color: $black;
+    padding: 1em;
+
+    .copy{
+        text-align: center;
+        a{
+            color: $white;
+        }
+    }
+}

@@ -1,0 +1,361 @@
+/*
+Theme name: Bella Cosmetics
+Version: 1.0
+Description: sitio web de cosmeticos 
+Author: Viviana Beltre
+Authon URI: http://github.com/ramitaenlarama
+License: GNU General Public Licence v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+/* line 14, ../sass/general.scss */
+.pointer:hover {
+  cursor: pointer;
+}
+
+/* line 14, ../sass/general.scss */
+.pointer:hover {
+  cursor: pointer;
+}
+
+/* line 3, ../sass/header.scss */
+.contenedor-principal {
+  max-width: 1800px;
+  margin: auto;
+}
+/* line 6, ../sass/header.scss */
+.contenedor-principal .navbar {
+  background-color: antiquewhite;
+  padding: 1em 3em;
+}
+@media screen and (max-width: 655px) {
+  /* line 6, ../sass/header.scss */
+  .contenedor-principal .navbar {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+/* line 17, ../sass/header.scss */
+.contenedor-principal .navbar .logo {
+  width: 90%;
+}
+/* line 21, ../sass/header.scss */
+.contenedor-principal .navbar .dropdown-menu {
+  left: -6em !important;
+  width: fit-content;
+  position: absolute;
+}
+@media screen and (max-width: 991px) {
+  /* line 21, ../sass/header.scss */
+  .contenedor-principal .navbar .dropdown-menu {
+    left: 0 !important;
+    right: 0;
+  }
+}
+@media screen and (max-width: 652px) {
+  /* line 21, ../sass/header.scss */
+  .contenedor-principal .navbar .dropdown-menu {
+    margin: auto;
+  }
+}
+
+/* line 4, ../sass/main.scss */
+main .section_one .carousel {
+  height: 100%;
+}
+/* line 6, ../sass/main.scss */
+main .section_one .carousel-inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+/* line 13, ../sass/main.scss */
+main .section_map {
+  display: flex;
+}
+/* line 15, ../sass/main.scss */
+main .section_map iframe {
+  width: 100%;
+  margin: auto;
+}
+@media screen and (max-width: 943px) {
+  /* line 15, ../sass/main.scss */
+  main .section_map iframe {
+    width: 90%;
+    margin-bottom: 3em;
+  }
+}
+/* line 24, ../sass/main.scss */
+main .section_contact {
+  padding: 5em 2em;
+}
+/* line 26, ../sass/main.scss */
+main .section_contact .titulo {
+  text-align: center;
+}
+/* line 29, ../sass/main.scss */
+main .section_contact .contenedor-contacto {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
+}
+@media screen and (max-width: 748px) {
+  /* line 29, ../sass/main.scss */
+  main .section_contact .contenedor-contacto {
+    flex-direction: column;
+  }
+}
+/* line 37, ../sass/main.scss */
+main .section_contact .contenedor-contacto .ubicacion {
+  width: 50%;
+  text-align: center;
+}
+/* line 40, ../sass/main.scss */
+main .section_contact .contenedor-contacto .ubicacion p {
+  margin: 0.5em;
+}
+@media screen and (max-width: 748px) {
+  /* line 37, ../sass/main.scss */
+  main .section_contact .contenedor-contacto .ubicacion {
+    width: 100%;
+  }
+}
+/* line 47, ../sass/main.scss */
+main .section_contact .contenedor-contacto .contacto-detalle {
+  width: 50%;
+  text-align: center;
+}
+/* line 50, ../sass/main.scss */
+main .section_contact .contenedor-contacto .contacto-detalle p {
+  margin: 0.5em;
+}
+@media screen and (max-width: 748px) {
+  /* line 47, ../sass/main.scss */
+  main .section_contact .contenedor-contacto .contacto-detalle {
+    width: 100%;
+  }
+}
+/* line 58, ../sass/main.scss */
+main .section_contact .social {
+  text-align: center;
+}
+/* line 60, ../sass/main.scss */
+main .section_contact .social .icon {
+  color: #000;
+  padding: 0.5em 0.7em;
+  border-radius: 100%;
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+/* line 71, ../sass/main.scss */
+main .section_contact .form textarea {
+  min-height: 150px;
+  max-height: 230px;
+}
+/* line 81, ../sass/main.scss */
+main .contenedor-productos .contenedor {
+  padding: 60px 0;
+}
+/* line 85, ../sass/main.scss */
+main .contenedor-productos .titulo {
+  font-size: 2.1em;
+  line-height: 34px;
+  margin-bottom: 40px;
+  font-weight: 300;
+  color: #323068;
+  text-align: center;
+}
+/* line 93, ../sass/main.scss */
+main .contenedor-productos .contenedor-productos_1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2em;
+}
+/* line 99, ../sass/main.scss */
+main .contenedor-productos .contenedor-productos_1 .producto {
+  width: 30%;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 500px) {
+  /* line 99, ../sass/main.scss */
+  main .contenedor-productos .contenedor-productos_1 .producto {
+    width: 100%;
+  }
+}
+/* line 105, ../sass/main.scss */
+main .contenedor-productos .contenedor-productos_1 .producto .thumb {
+  width: 100%;
+  margin-bottom: 10px;
+}
+/* line 108, ../sass/main.scss */
+main .contenedor-productos .contenedor-productos_1 .producto .thumb img {
+  width: 100%;
+  vertical-align: top;
+  border-radius: 3px;
+}
+/* line 117, ../sass/main.scss */
+main .contenedor-productos .contenedor-productos_1 .producto .descripcion {
+  text-align: center;
+}
+/* line 119, ../sass/main.scss */
+main .contenedor-productos .contenedor-productos_1 .producto .descripcion .nombre {
+  font-weight: 700;
+  color: #00851d;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 500px) {
+  /* line 119, ../sass/main.scss */
+  main .contenedor-productos .contenedor-productos_1 .producto .descripcion .nombre {
+    font-size: 1em;
+  }
+}
+/* line 127, ../sass/main.scss */
+main .contenedor-productos .contenedor-productos_1 .producto .descripcion .detalle {
+  font-size: 0.8em;
+  color: #636363;
+  padding: 0 1em;
+}
+/* line 138, ../sass/main.scss */
+main .pagnt {
+  width: fit-content;
+  margin: auto;
+}
+/* line 141, ../sass/main.scss */
+main .pagnt div {
+  padding: 0;
+}
+/* line 143, ../sass/main.scss */
+main .pagnt div ul {
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 1.25em;
+  font-size: 1em;
+}
+/* line 148, ../sass/main.scss */
+main .pagnt div ul li {
+  float: left;
+  background-color: #a7a7a7;
+  color: #fff;
+  margin-right: 0.62em;
+  font-size: 1em;
+  line-height: 1em;
+  border-radius: 50%;
+}
+/* line 156, ../sass/main.scss */
+main .pagnt div ul li.disabled {
+  padding: 0.8em 1em;
+  font-size: 1em;
+}
+/* line 160, ../sass/main.scss */
+main .pagnt div ul li a {
+  background-color: #c6538c;
+  color: #fff;
+  line-height: 1.2;
+  display: inline-block;
+  padding: 0.5em 0.8em;
+  border-radius: 50%;
+}
+/* line 167, ../sass/main.scss */
+main .pagnt div ul li a:hover {
+  background-color: #bc2a8d;
+  text-decoration: none;
+}
+/* line 174, ../sass/main.scss */
+main .pagnt div .wp-pagenavi {
+  margin-bottom: 1.25em;
+}
+/* line 176, ../sass/main.scss */
+main .pagnt div .wp-pagenavi .pages, main .pagnt div .wp-pagenavi span {
+  background-color: #a7a7a7;
+  color: #fff;
+  font-size: 1em;
+  margin-right: 18px;
+  line-height: 1;
+  padding: 0.7em 1em;
+  border-radius: 50%;
+}
+/* line 185, ../sass/main.scss */
+main .pagnt div .wp-pagenavi a {
+  background-color: #c6538c;
+  color: #fff;
+  display: inline-block;
+  padding: 0.5em 0.8em;
+  border-radius: 50%;
+  margin-right: 18px;
+}
+/* line 192, ../sass/main.scss */
+main .pagnt div .wp-pagenavi a:hover {
+  background-color: #bc2a8d;
+  text-decoration: none;
+}
+/* line 202, ../sass/main.scss */
+main .contenedor-nosotros {
+  padding: 2em;
+}
+/* line 204, ../sass/main.scss */
+main .contenedor-nosotros .mision {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding: 1.1em 2em;
+}
+@media screen and (max-width: 535px) {
+  /* line 204, ../sass/main.scss */
+  main .contenedor-nosotros .mision {
+    padding: 1.1em 1em;
+  }
+}
+@media screen and (max-width: 456px) {
+  /* line 204, ../sass/main.scss */
+  main .contenedor-nosotros .mision {
+    width: 100%;
+    padding: 1.1em 0.5em;
+  }
+}
+/* line 217, ../sass/main.scss */
+main .contenedor-nosotros .mision h3 {
+  font-weight: normal;
+  color: #868686;
+  margin-bottom: 1em;
+}
+/* line 224, ../sass/main.scss */
+main .contenedor_cart {
+  min-height: 450px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/* line 230, ../sass/main.scss */
+main .contenedor_cart .nothing {
+  font-size: 4em;
+  color: #ff779c;
+}
+/* line 235, ../sass/main.scss */
+main .pink_cart {
+  color: #cac7c8;
+  padding: 0.5em;
+  border: 1px solid #b7b7b7;
+  border-radius: 2em;
+}
+/* line 240, ../sass/main.scss */
+main .pink_cart:hover {
+  color: #848482;
+}
+
+/* line 1, ../sass/footer.scss */
+footer {
+  background-color: #000;
+  padding: 1em;
+}
+/* line 5, ../sass/footer.scss */
+footer .copy {
+  text-align: center;
+}
+/* line 7, ../sass/footer.scss */
+footer .copy a {
+  color: #fff;
+}

@@ -1,0 +1,36 @@
+@import 'general.scss';
+
+.contenedor-principal{
+    max-width: 1800px;
+    margin: auto;
+    .navbar{
+        background-color: antiquewhite;
+        padding: 1em 3em;
+        @media screen and (max-width: 655px) {
+
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .logo{
+            width: 90%;
+
+        }
+        .dropdown-menu{
+            left: -6em !important;
+            width: fit-content;
+            position: absolute;
+            @media screen and (max-width: 991px) {
+                left: 0 !important ;
+                right: 0;
+            }
+            @media screen and (max-width: 652px) {
+                margin: auto;
+            }
+        }
+    }
+    
+}
+

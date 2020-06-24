@@ -1,0 +1,46 @@
+/* line 14, ../sass/general.scss */
+.pointer:hover {
+  cursor: pointer;
+}
+
+/* line 3, ../sass/header.scss */
+.contenedor-principal {
+  max-width: 1800px;
+  margin: auto;
+}
+/* line 6, ../sass/header.scss */
+.contenedor-principal .navbar {
+  background-color: antiquewhite;
+  padding: 1em 3em;
+}
+@media screen and (max-width: 655px) {
+  /* line 6, ../sass/header.scss */
+  .contenedor-principal .navbar {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+/* line 17, ../sass/header.scss */
+.contenedor-principal .navbar .logo {
+  width: 90%;
+}
+/* line 21, ../sass/header.scss */
+.contenedor-principal .navbar .dropdown-menu {
+  left: -6em !important;
+  width: fit-content;
+  position: absolute;
+}
+@media screen and (max-width: 991px) {
+  /* line 21, ../sass/header.scss */
+  .contenedor-principal .navbar .dropdown-menu {
+    left: 0 !important;
+    right: 0;
+  }
+}
+@media screen and (max-width: 652px) {
+  /* line 21, ../sass/header.scss */
+  .contenedor-principal .navbar .dropdown-menu {
+    margin: auto;
+  }
+}
